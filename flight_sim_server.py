@@ -39,7 +39,7 @@ def collect_data(sid):
 
     x_val = x_volt / whole_val
     y_val = (y_volt - 1.1)/1
-    # 2.1 and 1.2
+
     throttle_val = throttle_volt / whole_val
 
     print(x_volt, y_volt, throttle_volt)
